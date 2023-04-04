@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/158a38c1e4.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+    <title> Portafolio | Henry Agustin</title>
+</head>
+<body>
+    <!-- Sección del Menú  -->
+    <section class="menu">
+        <header class="menu__header">
+            <img src="assets\vector.png" height="25px">
+            <h3 class="menu__title">Henry Agustin</h3>
+        </header>
+        <nav class="menu__nav">
+            <ul class="menu__list">
+                <li class="menu__list__item"><a class="underline" href="#sobre-mi">Sobre mi</a></li>
+                <li class="menu__list__item"><a class="underline" href="#skills">Skills</a></li>
+                <li class="menu__list__item"><a class="underline" href="#hobbies">Hobbies</a></li>
+                <li class="menu__list__item"><a class="underline" href="#formacion">Formación</a></li>
+                <li class="menu__list__item"><a class="underline" href="#xp">Proyectos</a></li>
+                <li class="menu__list__item"><a class="underline" href="#contacto">Contacto</a></li>
+            </ul>
+            <button type="button" class="menu__ham" id="btn__menu"><i class="fa-solid fa-bars menu-icon"></i></button>
+            <div class="menu__toggle ">
+                <div class="menu__toggle-header">
+                    <div class="toggle__header">
+                        <img src="assets\vector.png" height="25px">
+                        <h3 class="toggle__title">Henry Agustin</h3>
+                    </div>
+                    <button class="menu__toggle-btn toggle__btn" id="closeIcon">
+                        <i class="fa-solid fa-xmark close-icon"></i>
+                    </button>
+                </div>
+                <ul class="menu__toggle-list">
+                    <li class="menu__toggle__item"><a href="#sobre-mi" class="link underline">Sobre mi</a></li>
+                    <li class="menu__toggle__item"><a href="#skills" class="link underline">Skills</a></li>
+                    <li class="menu__toggle__item"><a href="#hobbies" class="link underline">Hobbies</a></li>
+                    <li class="menu__toggle__item"><a href="#formacion" class="link underline">Formación</a></li>
+                    <li class="menu__toggle__item"><a href="#xp" class="link underline">Proyectos</a></li>
+                    <li class="menu__toggle__item"><a href="#contacto" class="link underline">Contacto</a></li>
+                </ul>
+                <ul class="menu__social-icons">
+                    <li>
+                        <a href="https://www.linkedin.com/in/henry-agustin-/">
+                          <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/lexcode1227">
+                          <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/Alexander__1227">
+                          <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>  
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <!-- Sección del Header/Title/Hero -->
+    <section class="title">
+        <div class="title__div">
+            <img class="title__profile" src="assets/img.jpeg" height="75px"> 
+            <div class="title__container">
+                <h2 class="title__bio">Hola, mi nombre es Henry Agustin y soy Frontend Developer</h2>
+                <h3 class="title__subsection">Soy formado en Universidad Don Bosco en la carrera de Marketing Digital, además de pertenecer a la comunidad de Platzi y actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</h3>
+                <ul class="title__network">
+                     <!-- Pon los enlaces de tus redes sociales favoritas -->
+                    <li class="title__network__item"><a href="https://github.com/lexcode1227">Github
+                        <lord-icon class="icon-lord"
+                            src="https://cdn.lordicon.com/bewubbww.json"
+                            trigger="hover"
+                            style="width:25px;height:25px">
+                        </lord-icon> </a></li>
+                    <li class="title__network__item"><a href="https://www.linkedin.com/in/henry-agustin-/">Linkedin <lord-icon class="icon-lord"
+                        src="https://cdn.lordicon.com/bewubbww.json"
+                        trigger="hover"
+                        style="width:25px;height:25px">
+                    </lord-icon></a></li>
+                    <li class="title__network__item"><a href="https://www.instagram.com/henry__agustin/">Instagram <lord-icon class="icon-lord"
+                        src="https://cdn.lordicon.com/bewubbww.json"
+                        trigger="hover"
+                        style="width:25px;height:25px">
+                    </lord-icon></a></li>
+                    <li class="title__network__item"><a href="https://drive.google.com/file/d/1fsNZbiiumAbDWkRSkFm3hi4RLlS6QAZj/view?usp=sharing">Currículo <lord-icon class="icon-lord"
+                        src="https://cdn.lordicon.com/bewubbww.json"
+                        trigger="hover"
+                        style="width:25px;height:25px">
+                    </lord-icon></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Sección sobre mi -->
+    <section class="about" id="sobre-mi">
+        <div class="about__container">
+            <h3 class="about__title">Sobre mi</h3>
+            <p class="about__paragraph">Soy un Front-End Developer Jr aprendiendo React Js, con un año y medio de experiencia en proyectos básicos de uso personal como landing pages y sitios web estáticos. Busco colaborar y plasmar mis conocimientos técnicos en nuevos proyectos potenciales a través del trabajo en equipo.  </p>
+            <p class="about__paragraph">Actualmente soy estudiante activo de la carrera de Marketing Digital en la Universidad Don Bosco, tambien disfruto mucho aprender de manera autodidacta por internet de la mano de plataformas como Platzi, Alura Latam y OpenBootcamp. </p>
+            <!-- Si quieres, pon tú firma acá! -->
+            <!-- <img src="assets\signature.png"> -->
+        </div>
+    </section>
+
+    <!-- Sección de Skills -->
+    <section class="skills" id="skills">
+        <h3 class="skills__title">Skills</h3>
+            <div class="skills__line">
+                <div class="skills__box">
+                    <ul>
+                        <li class="skills__img"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" height="75px"></li>
+                        <li class="skills__name"> HTML 5</li>
+                    </ul>
+                </div>
+
+                <div class="skills__box">
+                    <ul>
+                        <li class="skills__img"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" height="75px" alt=""> </li>
+                        <li class="skills__name">CSS</li>
+                    </ul>
+                </div>
+
+                <div class="skills__box">
+                    <ul>
+                        <li class="skills__img"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="" height="75px"></li>
+                        <li class="skills__name">Javascript</li>
+                    </ul>
+                </div>
+
+                <div class="skills__box">
+                    <ul>
+                        <li class="skills__img"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="" height="75px"> </li>
+                        <li class="skills__name">React</li>
+                    </ul>
+                </div>
+
+                <div class="skills__box">
+                    <ul>
+                        <li class="skills__img"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="" height="75px"></li>
+                        <li class="skills__name">Git</li>
+                    </ul>
+                </div>
+
+                <div class="skills__box">
+                    <ul>
+                        <li class="skills__img"><img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="" height="75px"></li>
+                        <li class="skills__name">Figma</li>
+                    </ul>
+                </div>
+        </div>
+    </section>
+
+    <!-- Sección de Hobbies -->
+    <section class="hobbies" id="hobbies">
+        <h3 class="hobbies__title">Hobbies</h3>
+            <div class="hobbies__line">
+                <div class="hobbies__box">
+                    <ul>
+                        <li class="hobbies__img svgHobby"><svg fill="#2A7AE4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M64 64V352H576V64H64zM0 64C0 28.7 28.7 0 64 0H576c35.3 0 64 28.7 64 64V352c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zM128 448H512c17.7 0 32 14.3 32 32s-14.3 32-32 32H128c-17.7 0-32-14.3-32-32s14.3-32 32-32z"/></svg></li>
+                        <li class="hobbies__name"> Ver series</li>
+                    </ul>
+                </div>
+
+                <div class="hobbies__box">
+                    <ul>
+                        <li class="hobbies__img svgHobby"> <svg fill="#2A7AE4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M417.3 360.1l-71.6-4.8c-5.2-.3-10.3 1.1-14.5 4.2s-7.2 7.4-8.4 12.5l-17.6 69.6C289.5 445.8 273 448 256 448s-33.5-2.2-49.2-6.4L189.2 372c-1.3-5-4.3-9.4-8.4-12.5s-9.3-4.5-14.5-4.2l-71.6 4.8c-17.6-27.2-28.5-59.2-30.4-93.6L125 228.3c4.4-2.8 7.6-7 9.2-11.9s1.4-10.2-.5-15l-26.7-66.6C128 109.2 155.3 89 186.7 76.9l55.2 46c4 3.3 9 5.1 14.1 5.1s10.2-1.8 14.1-5.1l55.2-46c31.3 12.1 58.7 32.3 79.6 57.9l-26.7 66.6c-1.9 4.8-2.1 10.1-.5 15s4.9 9.1 9.2 11.9l60.7 38.2c-1.9 34.4-12.8 66.4-30.4 93.6zM256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512zm14.1-325.7c-8.4-6.1-19.8-6.1-28.2 0L194 221c-8.4 6.1-11.9 16.9-8.7 26.8l18.3 56.3c3.2 9.9 12.4 16.6 22.8 16.6h59.2c10.4 0 19.6-6.7 22.8-16.6l18.3-56.3c3.2-9.9-.3-20.7-8.7-26.8l-47.9-34.8z"/></svg></li>
+                        <li class="hobbies__name">Fútbol</li>
+                    </ul>
+                </div>
+
+                <div class="hobbies__box">
+                    <ul>
+                        <li class="hobbies__img svgHobby"> <svg fill="#2A7AE4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"> <path d="M256 80C149.9 80 62.4 159.4 49.6 262c9.4-3.8 19.6-6 30.4-6c26.5 0 48 21.5 48 48V432c0 26.5-21.5 48-48 48c-44.2 0-80-35.8-80-80V384 336 288C0 146.6 114.6 32 256 32s256 114.6 256 256v48 48 16c0 44.2-35.8 80-80 80c-26.5 0-48-21.5-48-48V304c0-26.5 21.5-48 48-48c10.8 0 21 2.1 30.4 6C449.6 159.4 362.1 80 256 80z"/></svg></li>
+                        <li class="hobbies__name">Oir música</li>
+                    </ul>
+                </div>
+
+                <div class="hobbies__box">
+                    <ul>
+                        <li class="hobbies__img svgHobby"><svg fill="#2A7AE4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M248 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V56H168c-13.3 0-24 10.7-24 24s10.7 24 24 24h32v40H59.6C26.7 144 0 170.7 0 203.6c0 8.2 1.7 16.3 4.9 23.8L59.1 352h52.3L49 208.2c-.6-1.5-1-3-1-4.6c0-6.4 5.2-11.6 11.6-11.6H224 388.4c6.4 0 11.6 5.2 11.6 11.6c0 1.6-.3 3.2-1 4.6L336.5 352h52.3l54.2-124.6c3.3-7.5 4.9-15.6 4.9-23.8c0-32.9-26.7-59.6-59.6-59.6H248V104h32c13.3 0 24-10.7 24-24s-10.7-24-24-24H248V24zM101.2 432H346.8l16.6 32H84.7l16.6-32zm283.7-30.7c-5.5-10.6-16.5-17.3-28.4-17.3H91.5c-12 0-22.9 6.7-28.4 17.3L36.6 452.5c-3 5.8-4.6 12.2-4.6 18.7C32 493.8 50.2 512 72.8 512H375.2c22.5 0 40.8-18.2 40.8-40.8c0-6.5-1.6-12.9-4.6-18.7l-26.5-51.2z"/></svg></li>
+                        <li class="hobbies__name">Ajedrez</li>
+                    </ul>
+                </div>
+
+                <div class="hobbies__box">
+                    <ul>
+                        <li class="hobbies__img svgHobby"> <svg fill="#2A7AE4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M192 64C86 64 0 150 0 256S86 448 192 448H448c106 0 192-86 192-192s-86-192-192-192H192zM496 248c-22.1 0-40-17.9-40-40s17.9-40 40-40s40 17.9 40 40s-17.9 40-40 40zm-24 56c0 22.1-17.9 40-40 40s-40-17.9-40-40s17.9-40 40-40s40 17.9 40 40zM168 200c0-13.3 10.7-24 24-24s24 10.7 24 24v32h32c13.3 0 24 10.7 24 24s-10.7 24-24 24H216v32c0 13.3-10.7 24-24 24s-24-10.7-24-24V280H136c-13.3 0-24-10.7-24-24s10.7-24 24-24h32V200z"/></svg></li>
+                        <li class="hobbies__name">VideoJuegos</li>
+                    </ul>
+                </div>
+
+                <div class="hobbies__box">
+                    <ul>
+                        <li class="hobbies__img"> <svg fill="#2A7AE4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M160 48a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zM126.5 199.3c-1 .4-1.9 .8-2.9 1.2l-8 3.5c-16.4 7.3-29 21.2-34.7 38.2l-2.6 7.8c-5.6 16.8-23.7 25.8-40.5 20.2s-25.8-23.7-20.2-40.5l2.6-7.8c11.4-34.1 36.6-61.9 69.4-76.5l8-3.5c20.8-9.2 43.3-14 66.1-14c44.6 0 84.8 26.8 101.9 67.9L281 232.7l21.4 10.7c15.8 7.9 22.2 27.1 14.3 42.9s-27.1 22.2-42.9 14.3L247 287.3c-10.3-5.2-18.4-13.8-22.8-24.5l-9.6-23-19.3 65.5 49.5 54c5.4 5.9 9.2 13 11.2 20.8l23 92.1c4.3 17.1-6.1 34.5-23.3 38.8s-34.5-6.1-38.8-23.3l-22-88.1-70.7-77.1c-14.8-16.1-20.3-38.6-14.7-59.7l16.9-63.5zM68.7 398l25-62.4c2.1 3 4.5 5.8 7 8.6l40.7 44.4-14.5 36.2c-2.4 6-6 11.5-10.6 16.1L54.6 502.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L68.7 398z"/></svg> </li>
+                        <li class="hobbies__name svgHobby">Ejercicio</li>
+                    </ul>
+                </div>
+        </div>
+    </section>
+
+        <!-- Sección de Formación académica -->
+    <section class="academic" id="formacion">
+        <h2 class="academic__title" >Formación académica</h2>
+        <div class="academic__courses">
+            <div class="academic__courses__box">
+                <ul class="academic__courses__list">
+                    <!-- Pon el logotipo de la institución de formación -->
+                    <li class="academic__courses__item__img"><img src="https://static.platzi.com/media/logotipo-platzi.png" width="90px" height="50px"></li>
+                    <li class="academic__courses__item__title"><h4>Web Developer</h4></li>
+                    <li class="academic__courses__item__subtitle"><p>2021 - Platzi</p></li>
+                </ul>
+            </div>
+            <div class="academic__courses__box">
+                <ul class="academic__courses__list">
+                    <!--Pon el logotipo de la institución de formación -->
+                    <li class="academic__courses__item__img"><img src="assets/logo-Alura.png" width="150px" height="150px"></li>
+                    <li class="academic__courses__item__title"><h4>Frontend Developer</h4></li>
+                    <li class="academic__courses__item__subtitle"><p>2023 - Alura</p></li>
+                </ul>
+            </div>
+            <div class="academic__courses__box">
+                <ul class="academic__courses__list">
+                    <!-- Pon el logotipo de la institución de formación -->
+                    <li class="academic__courses__item__img"><img src="/assets/logo_universidaddonbosco_letras.png" width="130px" height="50px"></li>
+                    <li class="academic__courses__item__title"><h4>Lic en Marketing Digital</h4></li>
+                    <li class="academic__courses__item__subtitle"><p>En curso - UDB</p></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Experiencia Profesional/Proyectos-->
+    <section class="experience" id="xp">
+        <h2 class="experience__section__title" >Experiencia Profesional</h2>
+        <div class="experience__container">
+            <div class="experience__box">
+                <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
+                <img class="experience__img" src="./assets/Tip-calculator-app-home.png" width="100%" height="auto">
+                <div class="experience__info">
+                    <h2 class="experience__title">Tip Calculator App</h2>
+                    <h3 class="experience__text" >Frontend Mentor Challenge</h3>
+                        <div class="experience__description">
+                            <!-- Pon el enlace del proyecto en Github o GithubPages -->
+                                <span class="experience__repo"><a href="https://github.com/lexcode1227/Tip-calculator-app"><button class="experience__btn--repo">Repositorio</button></a></span>
+                                <span class="experience__demo"><a href="https://lexcode1227.github.io/Tip-calculator-app/"><button class="experience__btn--demo">Ver demo</button></a></span>
+                        </div>
+                </div>
+            </div>  
+    
+            <div class="experience__box">
+                <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
+                <img class="experience__img" src="assets/Advice-Generator-App.png" width="100%" height="auto">
+                <div class="experience__info">
+                    <h2 class="experience__title">Advice Generator App</h2>
+                    <h3 class="experience__text">Frontend  Mentor Challenge</h3>
+                        <div class="experience__description">
+                            <!-- Pon el enlace del proyecto en Github o GithubPages -->
+                                <span class="experience__repo"><a href="https://github.com/lexcode1227/advice-generator-app"><button class="experience__btn--repo">Repositorio</button></a></span>
+                                <span class="experience__demo"><a href="https://lexcode1227.github.io/advice-generator-app/"><button class="experience__btn--demo">Ver demo</button></a></span>
+                        </div>
+                </div>
+            </div>  
+    
+            <div class="experience__box">
+                <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
+                <img class="experience__img" src="assets/Encriptador-de-Texto.png" width="100%" height="auto">
+                <div class="experience__info experience__info-container">
+                    <h2 class="experience__title">Encriptador de texto</h2>
+                    <h3 class="experience__text">Challenge ONE | Oracle </h3>
+                        <div class="experience__description">
+                                <!-- Pon el enlace del proyecto en Github o GithubPages -->
+                                <span class="experience__repo"><a href="https://github.com/lexcode1227/decodificador-de-texto"><button class="experience__btn--repo">Repositorio</button></a></span>
+                                <span class="experience__demo"><a href="https://lexcode1227.github.io/decodificador-de-texto/"><button class="experience__btn--demo">Ver demo</button></a></span>
+                        </div>
+                </div>
+            </div>  
+    
+            <div class="experience__box">
+                <img class="experience__img" src="assets/color-random-tool.png" width="100%" height="auto">
+                <div class="experience__info experience__info-container">
+                    <h2 class="experience__title">Color Random Tool</h2>
+                    <h3 class="experience__text">Challenge FreeCodeCamp </h3>
+                        <div class="experience__description">
+                                <!-- Pon el enlace del proyecto en Github o GithubPages -->
+                                <span class="experience__repo"><a href="https://github.com/lexcode1227/color-random-tool"><button class="experience__btn--repo">Repositorio</button></a></span>
+                                <span class="experience__demo"><a href="https://lexcode1227.github.io/color-random-tool/"><button class="experience__btn--demo">Ver demo</button></a></span>
+                        </div>
+            </div>
+            </div>
+        </div>
+          
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section class="formContacto" id="contacto">
+        <div class="formContacto__contacto">
+            <div class="formContacto--izquierda">
+                <img class="formContacto__img" src="assets/undraw_chatting_re_j55r.svg">
+            </div>
+            <div class="formContacto__text">
+                <h2 class="formContacto__title">Contacto</h2>
+                <h3 class="formContacto__subtext">¿Quieres contactarme?</h3>
+                <h3 class="formContacto__subtext">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. </h3>
+                <form class="formContacto__form" id="form" name="form" action="https://formspree.io/f/xzbqjyyy"
+                method="POST">
+                    <label for="nombre">Nombre</label>
+                    <input class="formContacto__input" id="nombre" type="text" name="nombre" placeholder="Alexander Alvarado" onchange="toggleButton()" required>
+                    <label for="email">Email</label>
+                    <input class="formContacto__input" id="email" type="email" name="email" placeholder="alex@ejemplo.com" onchange="toggleButton()" required>
+                    <label for="asunto">Asunto</label>
+                    <input class="formContacto__input" id="asunto" type="text" name="asunto" placeholder="Proyecto Freelancer" onchange="toggleButton()" required>
+                    <label for="mensaje">Mensaje</label>
+                    <textarea class="formContacto__textarea" id="mensaje" rows="5" cols="30" width="100%" id="mensaje" name="mensaje" placeholder="Te he contactado para..." onchange="toggleButton()" required></textarea>
+                    <button type="submit" disabled id="btnSubmit" class="formContacto__btn btn--disable">Enviar mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Footer -->
+    <section class="footer">
+        <div class="footer__rodape">
+            <p>Desarrollado por @lexcode</p>
+            <p>2023</p>
+        </div>
+    </section>
+ <!-- Script del documento JavaScript -->
+<script src="validacion.js"></script>
+</body>
+</html>
