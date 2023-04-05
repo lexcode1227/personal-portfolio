@@ -26,8 +26,8 @@ Los usuarios deben ser capaz de:
 
 ### Links
 
-- Solución URL: [Repository](https://github.com/lexcode1227/personal-portfolio-react)
-- Sitio publicado URL: [Github-pages](https://lexcode1227.github.io/personal-portfolio-react/)
+- Solución URL: [Repository](https://github.com/lexcode1227/personal-portfolio)
+- Sitio publicado URL: [Github-pages](https://lexcode1227.github.io/personal-portfolio/)
 
 ## Proceso
 
